@@ -1,0 +1,6 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: openshift-hello
+spec:
+  host: openshift-hello-production.apps.mobb-infra.3o2h.p1.openshiftapps.com
