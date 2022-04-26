@@ -5,6 +5,8 @@ metadata:
     app: openshift-hello
   name: openshift-hello
 spec:
+  tls:
+    termination: edge
   port:
     targetPort: 8080-tcp
   to:
