@@ -3,6 +3,6 @@ kind: Kustomization
 resources:
 - ../../app/
 images:
-- digest: sha256:3d1c1a14ba050d1db59ce21b8ef70376f8aeae3e94e38cd88ff4e7bc9da3b413
+- digest: sha256:e962ba41e259bbdde5182d69204a69ec95ecbfccc99b04ed88627b8c48523f1a
   name: quay.io/mobb/openshift-hello:latest
-  newName: quay.io/mobb/openshift-hello:0.1.0-alpha.2
+  newName: quay.io/mobb/openshift-hello:0.1.0-alpha.6
