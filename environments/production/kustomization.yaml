@@ -2,8 +2,6 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
 - ../../app/
-patchesStrategicMerge:
-- route.yaml
 images:
 - digest: sha256:52e82ed9192a7edd5a43a8f59ab1cbe6f334d20296eef765b429c4052fb117b4
   name: quay.io/mobb/openshift-hello:latest
