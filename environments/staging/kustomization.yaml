@@ -6,3 +6,6 @@ images:
 - digest: sha256:07be32321f36882bc3c83a97b410fd0c712e20530a328fa9e4f9a93509dabd61
   name: quay.io/mobb/openshift-hello:latest
   newName: quay.io/mobb/openshift-hello:0.1.5-build.14
+- digest: sha256:aba44aa8513fab0cd5095eddccfcf9cccdd13177767db30039fcc21358abde91
+  name: shaozhendemoregistry.azurecr.io/mobb/hello-openshift:latest
+  newName: shaozhendemoregistry.azurecr.io/mobb/hello-openshift:0.1.5-build.15
