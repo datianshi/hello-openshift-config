@@ -19,7 +19,7 @@ spec:
       containers:
       - name: openshift-hello
         imagePullPolicy: Always
-        image: shaozhendemoregistry.azurecr.io/mobb/hello-openshift:latest
+        image: shaozhendemoregistry.azurecr.io/mobb/openshift-hello:latest
         livenessProbe:
           failureThreshold: 3
           httpGet:
