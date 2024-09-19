@@ -6,6 +6,6 @@ images:
 - digest: sha256:aba44aa8513fab0cd5095eddccfcf9cccdd13177767db30039fcc21358abde91
   name: shaozhendemoregistry.azurecr.io/mobb/hello-openshift:latest
   newName: shaozhendemoregistry.azurecr.io/mobb/hello-openshift:0.1.5-build.15
-- digest: sha256:bcdab4d70a67b36a0671025e4484fd350504b1bc65d8da06c31cd03fda4de8f5
+- digest: sha256:b3d655bf214fbde548cc3658fb4d42efb27ce3e9a4b06f98e485305b5eda51ea
   name: shaozhendemoregistry.azurecr.io/mobb/openshift-hello:latest
-  newName: shaozhendemoregistry.azurecr.io/mobb/openshift-hello:0.1.5-build.16
+  newName: shaozhendemoregistry.azurecr.io/mobb/openshift-hello:0.1.5-build.17
