@@ -3,6 +3,6 @@ kind: Kustomization
 resources:
 - ../../app/
 images:
-- digest: sha256:e16a684ba34fbf5688204d727bfba1ddb4a8546376b98ddc218c2de8bbaf4d15
+- digest: sha256:928d738d1af58e0f216c9e81b9bf74cc0a953dd1ce17250d5d3af9765f1c9c3a
   name: shaozhendemoregistry.azurecr.io/mobb/openshift-hello:latest
-  newName: shaozhendemoregistry.azurecr.io/mobb/openshift-hello:0.1.5-build.20
+  newName: shaozhendemoregistry.azurecr.io/mobb/openshift-hello:0.1.5-build.21
